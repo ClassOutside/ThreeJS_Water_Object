@@ -1,6 +1,5 @@
 import * as THREE from 'three';
 import { LoadGLTFByPath, SetAmbientLighting } from '../helpers/ModelHelper.js'
-import { setBackground } from '../helpers/SkyboxHelper.js'
 import { setupRenderer } from '../helpers/RendererHelper.js'
 import { getFirstCameraInScene, updateCameraAspect } from '../helpers/CameraHelper.js'
 import { ReplacePlanesWithWater, animateWater } from '../helpers/WaterHelper.js'
